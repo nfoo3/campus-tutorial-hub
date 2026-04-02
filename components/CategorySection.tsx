@@ -17,7 +17,7 @@ export default function CategorySection({ category }: { category: Category }) {
       {/* Responsive 2-column grid on sm+ screens */}
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
         {category.resources.map((resource) => (
-          <ResourceCard key={resource.url} title={resource.title} url={resource.url} />
+          <ResourceCard key={resource.url} title={resource.title} url={resource.url} duration={resource.duration} />
         ))}
       </div>
     </section>
