@@ -19,7 +19,7 @@ export const categories: Category[] = [
       {
         title: 'How do I watch a missed lecture recording for credit?',
         url: 'https://www.youtube.com/watch?v=-poBnnMtxpM',
-        duration: '3:27',
+        duration: '2:37',
       },
       {
         title: 'How do I access previous groups or classes?',
@@ -74,6 +74,11 @@ export const categories: Category[] = [
         title: 'How do I open or close my pages?',
         url: 'https://www.youtube.com/watch?v=ukmm6UBDsLA',
         duration: '1:49',
+      },
+      {
+        title: 'How to Restore A Closed Tab',
+        url: 'https://www.youtube.com/watch?v=SKlwWFsz7gA',
+        duration: '1:02',
       },
     ],
   },
