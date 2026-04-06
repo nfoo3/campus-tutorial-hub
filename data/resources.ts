@@ -4,6 +4,7 @@ export const categories: Category[] = [
   {
     id: 'class-navigation',
     name: 'Class Navigation',
+    description: 'New here? Start with these.',
     resources: [
       {
         title: 'How do I join a class in Campuswire?',
@@ -35,6 +36,7 @@ export const categories: Category[] = [
   {
     id: 'assignments',
     name: 'Assignments',
+    description: 'Learn how to turn in your work and submit correctly.',
     resources: [
       {
         title: 'How do I submit an assignment?',
@@ -56,6 +58,7 @@ export const categories: Category[] = [
   {
     id: 'tech-basics',
     name: 'Tech Basics',
+    description: 'Not sure how to do something on your computer? These videos cover the essentials.',
     resources: [
       {
         title: 'How do I copy and paste a link?',
@@ -77,6 +80,7 @@ export const categories: Category[] = [
   {
     id: 'support',
     name: 'Support',
+    description: 'Stuck or having trouble? Find out how to get help from a real person.',
     resources: [
       {
         title: 'How do I book a tutoring session?',

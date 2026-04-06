@@ -16,6 +16,13 @@ export default function Home() {
         />
       </header>
 
+      {/* Intro blurb */}
+      <div className="mx-auto max-w-5xl px-6 pt-4">
+        <p className="text-center text-base text-gray-600">
+          Watch these short videos to get started with your online class tools.
+        </p>
+      </div>
+
       {/* Jump to nav */}
       <TableOfContents />
 

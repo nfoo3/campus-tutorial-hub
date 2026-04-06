@@ -12,6 +12,7 @@ export default function CategorySection({ category }: { category: Category }) {
         >
           {category.name}
         </h2>
+        <p className="mt-1 text-sm text-gray-500">{category.description}</p>
       </div>
 
       {/* Responsive 2-column grid on sm+ screens */}

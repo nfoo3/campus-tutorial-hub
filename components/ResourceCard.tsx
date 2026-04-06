@@ -83,24 +83,23 @@ export default function ResourceCard({ title, url, duration }: Resource) {
 
       {/* Title + duration row */}
       <div className="flex items-center gap-2 p-4">
-        <span className="flex-1 text-base font-semibold leading-snug text-gray-800 transition-colors group-hover:text-[#4f50ff]">
-          {title}
-        </span>
+        <div className="flex flex-1 flex-col gap-1">
+          <span className="text-base font-semibold leading-snug text-gray-800 transition-colors group-hover:text-[#4f50ff]">
+            {title}
+          </span>
+          <span className="text-xs font-medium text-[#4f50ff] group-hover:underline">
+            Watch on YouTube ↗
+          </span>
+        </div>
         <div className="flex shrink-0 flex-col items-end gap-1">
           {/* Estimated watch time badge */}
-          <span className="rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-500">
+          <span className="flex items-center gap-1 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-500">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="h-3 w-3" aria-hidden="true">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 6v6l4 2" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
             {duration}
           </span>
-          <svg
-            aria-hidden="true"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth={2}
-            className="h-4 w-4 text-gray-400 transition-colors group-hover:text-[#4f50ff]"
-          >
-            <path d="M7 17L17 7M17 7H7M17 7v10" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
         </div>
       </div>
     </a>

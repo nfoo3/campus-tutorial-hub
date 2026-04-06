@@ -7,5 +7,6 @@ export interface Resource {
 export interface Category {
   id: string;
   name: string;
+  description: string;
   resources: Resource[];
 }
