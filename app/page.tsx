@@ -1,8 +1,7 @@
 import BackToTop from '@/components/BackToTop';
-import CategorySection from '@/components/CategorySection';
 import ProgressBar from '@/components/ProgressBar';
+import SearchableContent from '@/components/SearchableContent';
 import TableOfContents from '@/components/TableOfContents';
-import { categories } from '@/data/resources';
 
 export default function Home() {
   return (
@@ -29,14 +28,8 @@ export default function Home() {
       {/* Progress tracker */}
       <ProgressBar />
 
-      {/* Resource categories */}
-      <main className="mx-auto max-w-5xl px-6 py-12">
-        <div className="space-y-12">
-          {categories.map((category) => (
-            <CategorySection key={category.id} category={category} />
-          ))}
-        </div>
-      </main>
+      {/* Search + resource categories */}
+      <SearchableContent />
 
       {/* Floating back-to-top button */}
       <BackToTop />
