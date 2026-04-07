@@ -31,6 +31,11 @@ export const categories: Category[] = [
         url: 'https://www.youtube.com/watch?v=jB8CRYlrP_I',
         duration: '1:39',
       },
+      {
+        title: 'How to View Your Syllabus',
+        url: 'https://www.youtube.com/watch?v=NSrRfvhMzMU',
+        duration: '3:18',
+      },
     ],
   },
   {
